@@ -73,10 +73,10 @@
   <!-- rotating line -->
   <g class="mono" font-size="18">
     <text x="60" y="262" fill="#64748b">~/mert<tspan fill="#22c55e"> ❯ </tspan></text>
-    <text x="142" y="262" fill="#e2e8f0" class="rot r1">orchestrating multi-agent AI systems</text>
-    <text x="142" y="262" fill="#e2e8f0" class="rot r2">shipping web, iOS &amp; Flutter apps</text>
-    <text x="142" y="262" fill="#e2e8f0" class="rot r3">growing brands with SEO &amp; automated content</text>
-    <text x="142" y="262" fill="#e2e8f0" class="rot r4">researching metacognitive LLM controllers</text>
+    <text x="148" y="262" fill="#e2e8f0" class="rot r1">orchestrating multi-agent AI systems</text>
+    <text x="148" y="262" fill="#e2e8f0" class="rot r2">shipping web, iOS &amp; Flutter apps</text>
+    <text x="148" y="262" fill="#e2e8f0" class="rot r3">growing brands with SEO &amp; automated content</text>
+    <text x="148" y="262" fill="#e2e8f0" class="rot r4">researching metacognitive LLM controllers</text>
   </g>
 
   <!-- tag chips -->

@@ -101,10 +101,8 @@ I'm an entrepreneur and full-stack engineer. I co-lead **[Techsy.io](https://tec
 
 ## 📊 GitHub activity
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Mertbaturg&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=a78bfa" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mertbaturg&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc" alt="Top languages"/>
-</p>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution chart" width="100%"/>
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Mertbaturg&theme=tokyonight&hide_border=true&background=0d1117&ring=7dd3fc&fire=a78bfa&currStreakLabel=7dd3fc" alt="Streak"/>
 </p>

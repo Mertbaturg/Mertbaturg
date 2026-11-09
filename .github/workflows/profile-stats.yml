@@ -1,0 +1,39 @@
+name: Refresh GitHub stats card
+
+# Rebuilds assets/github-stats.svg from the GraphQL API once a day.
+# Needs a GH_STATS_TOKEN secret (fine-grained PAT, read-only access to all
+# repos + org membership); the default GITHUB_TOKEN cannot see private repos,
+# so without the secret this job keeps the committed card instead of
+# overwriting it with smaller public-only numbers.
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build card from the GraphQL API
+        env:
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::notice::GH_STATS_TOKEN is not set; keeping the committed card."
+            exit 0
+          fi
+          python3 scripts/build_profile.py --github
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/github.json assets/github-stats.svg README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh GitHub stats card"
+          git pull --rebase -q
+          git push

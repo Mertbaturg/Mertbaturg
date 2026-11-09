@@ -1,0 +1,219 @@
+{
+  "login": "Mertbaturg",
+  "generated_at": "2026-11-09",
+  "member_since": "2020-12-29",
+  "contributions_by_year": {
+    "2020": 1,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 49,
+    "2025": 1404,
+    "2026": 21643
+  },
+  "commits": 22964,
+  "prs": 66,
+  "issues": 34,
+  "reviews": 0,
+  "contributions": 23097,
+  "repos": 103,
+  "repos_private": 100,
+  "orgs": 6,
+  "stars": 4,
+  "forks": 0,
+  "followers": 9,
+  "contributed_to": 53,
+  "languages": [
+    {
+      "name": "Dart",
+      "bytes": 243389034,
+      "pct": 43.93
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 181430249,
+      "pct": 32.75
+    },
+    {
+      "name": "HTML",
+      "bytes": 57502950,
+      "pct": 10.38
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 24229352,
+      "pct": 4.37
+    },
+    {
+      "name": "Python",
+      "bytes": 13153008,
+      "pct": 2.37
+    },
+    {
+      "name": "Swift",
+      "bytes": 7690139,
+      "pct": 1.39
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 6736930,
+      "pct": 1.22
+    },
+    {
+      "name": "MDX",
+      "bytes": 4089866,
+      "pct": 0.74
+    },
+    {
+      "name": "Ruby",
+      "bytes": 3542979,
+      "pct": 0.64
+    },
+    {
+      "name": "Vue",
+      "bytes": 2663366,
+      "pct": 0.48
+    },
+    {
+      "name": "Roff",
+      "bytes": 1877405,
+      "pct": 0.34
+    },
+    {
+      "name": "CSS",
+      "bytes": 1511173,
+      "pct": 0.27
+    },
+    {
+      "name": "Kotlin",
+      "bytes": 1476041,
+      "pct": 0.27
+    },
+    {
+      "name": "Shell",
+      "bytes": 1461525,
+      "pct": 0.26
+    },
+    {
+      "name": "Java",
+      "bytes": 908988,
+      "pct": 0.16
+    },
+    {
+      "name": "Go",
+      "bytes": 747329,
+      "pct": 0.13
+    },
+    {
+      "name": "C#",
+      "bytes": 644483,
+      "pct": 0.12
+    },
+    {
+      "name": "SCSS",
+      "bytes": 273257,
+      "pct": 0.05
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 104203,
+      "pct": 0.02
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 94907,
+      "pct": 0.02
+    },
+    {
+      "name": "Handlebars",
+      "bytes": 82186,
+      "pct": 0.01
+    },
+    {
+      "name": "Rust",
+      "bytes": 77848,
+      "pct": 0.01
+    },
+    {
+      "name": "Jinja",
+      "bytes": 73411,
+      "pct": 0.01
+    },
+    {
+      "name": "C++",
+      "bytes": 63037,
+      "pct": 0.01
+    },
+    {
+      "name": "CMake",
+      "bytes": 36689,
+      "pct": 0.01
+    },
+    {
+      "name": "C",
+      "bytes": 34080,
+      "pct": 0.01
+    },
+    {
+      "name": "PHP",
+      "bytes": 30668,
+      "pct": 0.01
+    },
+    {
+      "name": "ASP.NET",
+      "bytes": 23063,
+      "pct": 0.0
+    },
+    {
+      "name": "Makefile",
+      "bytes": 19100,
+      "pct": 0.0
+    },
+    {
+      "name": "NSIS",
+      "bytes": 18167,
+      "pct": 0.0
+    },
+    {
+      "name": "Wolfram Language",
+      "bytes": 15479,
+      "pct": 0.0
+    },
+    {
+      "name": "Liquid",
+      "bytes": 11903,
+      "pct": 0.0
+    },
+    {
+      "name": "XSLT",
+      "bytes": 4980,
+      "pct": 0.0
+    },
+    {
+      "name": "GLSL",
+      "bytes": 4128,
+      "pct": 0.0
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 3823,
+      "pct": 0.0
+    },
+    {
+      "name": "Lua",
+      "bytes": 514,
+      "pct": 0.0
+    },
+    {
+      "name": "Objective-C",
+      "bytes": 494,
+      "pct": 0.0
+    },
+    {
+      "name": "Procfile",
+      "bytes": 283,
+      "pct": 0.0
+    }
+  ],
+  "language_count": 38
+}

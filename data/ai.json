@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-09",
+  "claude": {
+    "first_logged": "2025-12-29",
+    "last_logged": "2026-11-07",
+    "claude_account_since": "2024-07-04",
+    "claude_code_since": "2025-07-09",
+    "plan": "Max",
+    "tokens": {
+      "input": 12637732,
+      "output": 747441711,
+      "cache_read": 212690249479,
+      "cache_write": 4588082744
+    },
+    "total": 218038411666,
+    "by_family": {
+      "opus": 198160838860,
+      "sonnet": 14752034731,
+      "fable": 4824719125,
+      "haiku": 300818950
+    },
+    "output_by_family": {
+      "opus": 655553502,
+      "sonnet": 67193953,
+      "fable": 21595587,
+      "haiku": 3098669
+    },
+    "by_model": {
+      "Opus 5.5": 168923848469,
+      "Opus 4.8": 12968533723,
+      "Sonnet 5": 11993350401,
+      "Opus 5": 10944484366,
+      "Fable 5.1": 3898106262,
+      "Opus 4.5": 3696592085,
+      "Sonnet 5.5": 2206100331,
+      "Opus 4.6": 1627380217,
+      "Fable 5": 926612863,
+      "Sonnet 4.6": 427507165,
+      "Haiku 4.5": 153987644,
+      "Haiku 5.5": 146831306,
+      "Sonnet 4.5": 125076834
+    },
+    "monthly": [
+      {
+        "month": "2026-06",
+        "tokens": 716819472,
+        "days": 4
+      },
+      {
+        "month": "2026-07",
+        "tokens": 23910736984,
+        "days": 27
+      },
+      {
+        "month": "2026-08",
+        "tokens": 6933350843,
+        "days": 12
+      },
+      {
+        "month": "2026-09",
+        "tokens": 47516197605,
+        "days": 11
+      },
+      {
+        "month": "2026-10",
+        "tokens": 121045332031,
+        "days": 30
+      },
+      {
+        "month": "2026-11",
+        "tokens": 12466877703,
+        "days": 6
+      }
+    ],
+    "unsplit_before": 5449097028,
+    "peak_month": {
+      "month": "2026-10",
+      "tokens": 121045332031,
+      "days": 30
+    },
+    "peak_day": {
+      "date": "2026-10-03",
+      "tokens": 13934417382
+    },
+    "sessions": 8268,
+    "messages": 1621768,
+    "longest_session_days": 6.4,
+    "longest_session_messages": 6064
+  },
+  "codex": {
+    "since": "2026-05-09",
+    "total": 465466779,
+    "by_model": {
+      "gpt-5.6-sol": 281754144,
+      "gpt-6-astra": 79474845,
+      "gpt-5.5": 65510348,
+      "gpt-6-luna": 14760599,
+      "gpt-6.1-sol": 12032555,
+      "gpt-5.6-luna": 8640557,
+      "gpt-5.4-mini": 3293731
+    }
+  }
+}

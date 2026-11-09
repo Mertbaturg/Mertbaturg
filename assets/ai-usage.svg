@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="AI usage: 218B Claude Code tokens, peak 121B in Oct 2026">
+  <title>AI usage: 218B Claude Code tokens, peak 121B in Oct 2026</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" x2="1">
+      <stop offset="0" stop-color="#f0f6fc"/><stop offset=".55" stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#3987e5" opacity=".35"/><line x1="0" y1="0" x2="0" y2="6" stroke="#3987e5" stroke-width="3"/>
+    </pattern>
+    <style>
+      .t { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="750" rx="20" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="749" rx="19.5" fill="none" stroke="#1e293b"/>
+  <text x="48" y="56" class="m" font-size="15" letter-spacing="3" fill="#7dd3fc">AI USAGE · MEASURED FROM MY OWN LOGS</text>
+  <text x="48" y="96" class="t" font-size="32" font-weight="700" fill="#f0f6fc">AI-native since ChatGPT&#x27;s first day</text>
+  <text x="1152" y="56" class="m" font-size="14" fill="#7c8799" text-anchor="end">updated 2026-11-09</text>
+  <text x="48" y="196" class="t" font-size="84" font-weight="800" fill="url(#hero)">218B</text>
+  <text x="48" y="232" class="t" font-size="19" fill="#a8b3c4">tokens through Claude Code · Dec 2025 → Nov 2026</text>
+  <g transform="translate(48,264)">
+    <rect width="262" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">121B</text>
+    <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">in Oct 2026 alone</text>
+    <text x="20" y="94" class="m" font-size="13" fill="#7c8799">30 days</text>
+  </g>
+  <g transform="translate(326,264)">
+    <rect width="262" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">747M</text>
+    <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">output tokens written</text>
+  </g>
+  <g transform="translate(48,388)">
+    <rect width="262" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">8,268</text>
+    <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">agent sessions</text>
+    <text x="20" y="94" class="m" font-size="13" fill="#7c8799">1.6M msgs</text>
+  </g>
+  <g transform="translate(326,388)">
+    <rect width="262" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">6.4 days</text>
+    <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">longest single session</text>
+    <text x="20" y="94" class="m" font-size="13" fill="#7c8799">6.1K msgs</text>
+  </g>
+  <text x="680" y="150" class="m" font-size="14" letter-spacing="2" fill="#7c8799">TOKENS PER MONTH</text>
+  <line x1="724" x2="1152" y1="446.0" y2="446.0" stroke="#1e293b"/><text x="716" y="451.0" class="m" font-size="13" fill="#7c8799" text-anchor="end">0</text>
+  <line x1="724" x2="1152" y1="383.5" y2="383.5" stroke="#1e293b"/><text x="716" y="388.5" class="m" font-size="13" fill="#7c8799" text-anchor="end">40B</text>
+  <line x1="724" x2="1152" y1="321.0" y2="321.0" stroke="#1e293b"/><text x="716" y="326.0" class="m" font-size="13" fill="#7c8799" text-anchor="end">80B</text>
+  <line x1="724" x2="1152" y1="258.5" y2="258.5" stroke="#1e293b"/><text x="716" y="263.5" class="m" font-size="13" fill="#7c8799" text-anchor="end">120B</text>
+  <line x1="724" x2="1152" y1="196.0" y2="196.0" stroke="#1e293b"/><text x="716" y="201.0" class="m" font-size="13" fill="#7c8799" text-anchor="end">160B</text>
+  <path d="M749.7,446.0 V446.0 Q749.7,444.9 750.9,444.9 H789.8 Q790.9,444.9 790.9,446.0 V446.0 Z" fill="#3987e5"/>
+  <text x="770.3" y="468" class="t" font-size="15" fill="#a8b3c4" text-anchor="middle">Jun</text><text x="770.3" y="486" class="m" font-size="12" fill="#7c8799" text-anchor="middle">4d</text>
+  <path d="M818.4,446.0 V412.6 Q818.4,408.6 822.4,408.6 H855.6 Q859.6,408.6 859.6,412.6 V446.0 Z" fill="#3987e5"/>
+  <text x="839.0" y="468" class="t" font-size="15" fill="#a8b3c4" text-anchor="middle">Jul</text><text x="839.0" y="486" class="m" font-size="12" fill="#7c8799" text-anchor="middle">27d</text>
+  <path d="M887.1,446.0 V439.2 Q887.1,435.2 891.1,435.2 H924.3 Q928.3,435.2 928.3,439.2 V446.0 Z" fill="#3987e5"/>
+  <text x="907.7" y="468" class="t" font-size="15" fill="#a8b3c4" text-anchor="middle">Aug</text><text x="907.7" y="486" class="m" font-size="12" fill="#7c8799" text-anchor="middle">12d</text>
+  <path d="M955.7,446.0 V375.8 Q955.7,371.8 959.7,371.8 H992.9 Q996.9,371.8 996.9,375.8 V446.0 Z" fill="#3987e5"/>
+  <text x="976.3" y="468" class="t" font-size="15" fill="#a8b3c4" text-anchor="middle">Sep</text><text x="976.3" y="486" class="m" font-size="12" fill="#7c8799" text-anchor="middle">11d</text>
+  <path d="M1024.4,446.0 V260.9 Q1024.4,256.9 1028.4,256.9 H1061.6 Q1065.6,256.9 1065.6,260.9 V446.0 Z" fill="#3987e5"/>
+  <text x="1045.0" y="468" class="t" font-size="15" fill="#a8b3c4" text-anchor="middle">Oct</text><text x="1045.0" y="486" class="m" font-size="12" fill="#7c8799" text-anchor="middle">30d</text>
+  <text x="1045.0" y="246.9" class="t" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">121B</text>
+  <path d="M1093.1,446.0 V430.5 Q1093.1,426.5 1097.1,426.5 H1130.3 Q1134.3,426.5 1134.3,430.5 V446.0 Z" fill="url(#hatch)"/>
+  <text x="1113.7" y="468" class="t" font-size="15" fill="#a8b3c4" text-anchor="middle">Nov</text><text x="1113.7" y="486" class="m" font-size="12" fill="#7c8799" text-anchor="middle">6d</text>
+  <text x="1113.7" y="416.5" class="t" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">12.5B so far</text>
+  <text x="48" y="560" class="m" font-size="14" letter-spacing="2" fill="#7c8799">MODEL MIX · FRONTIER MAIN AGENT + SUBAGENTS</text>
+  <text x="48" y="596" class="t" font-size="16" font-weight="600" fill="#f0f6fc">Opus</text><text x="294" y="596" class="m" font-size="14" fill="#a8b3c4" text-anchor="end">90.9% · 198B</text>
+  <rect x="48" y="606" width="246" height="10" rx="5" fill="#1e293b"/>  <path d="M48.0,606.0 H266.6 Q271.6,606.0 271.6,611.0 V611.0 Q271.6,616.0 266.6,616.0 H48.0 Z" fill="#3987e5"/>
+  <text x="48" y="638" class="m" font-size="13" fill="#7c8799">4.5 · 4.6 · 4.8 · 5 · 5.5</text>
+  <text x="318" y="596" class="t" font-size="16" font-weight="600" fill="#f0f6fc">Sonnet</text><text x="564" y="596" class="m" font-size="14" fill="#a8b3c4" text-anchor="end">6.8% · 14.8B</text>
+  <rect x="318" y="606" width="246" height="10" rx="5" fill="#1e293b"/>  <path d="M318.0,606.0 H329.6 Q334.6,606.0 334.6,611.0 V611.0 Q334.6,616.0 329.6,616.0 H318.0 Z" fill="#3987e5"/>
+  <text x="318" y="638" class="m" font-size="13" fill="#7c8799">4.5 · 4.6 · 5 · 5.5</text>
+  <text x="588" y="596" class="t" font-size="16" font-weight="600" fill="#f0f6fc">Fable</text><text x="834" y="596" class="m" font-size="14" fill="#a8b3c4" text-anchor="end">2.2% · 4.8B</text>
+  <rect x="588" y="606" width="246" height="10" rx="5" fill="#1e293b"/>  <path d="M588.0,606.0 H588.4 Q593.4,606.0 593.4,611.0 V611.0 Q593.4,616.0 588.4,616.0 H588.0 Z" fill="#3987e5"/>
+  <text x="588" y="638" class="m" font-size="13" fill="#7c8799">5 · 5.1</text>
+  <text x="858" y="596" class="t" font-size="16" font-weight="600" fill="#f0f6fc">Haiku</text><text x="1104" y="596" class="m" font-size="14" fill="#a8b3c4" text-anchor="end">0.1% · 301M</text>
+  <rect x="858" y="606" width="246" height="10" rx="5" fill="#1e293b"/>  <path d="M858.0,606.0 H858.0 Q860.0,606.0 860.0,608.0 V614.0 Q860.0,616.0 858.0,616.0 H858.0 Z" fill="#3987e5"/>
+  <text x="858" y="638" class="m" font-size="13" fill="#7c8799">4.5 · 5.5</text>
+  <text x="48" y="668" class="t" font-size="15" fill="#a8b3c4">13 Claude models, Opus as the main agent with Sonnet/Haiku subagents · + 465M via Codex since May 2026 (7 GPT models)</text>
+  <text x="48" y="702" class="t" font-size="13" fill="#7c8799">Totals count input, output and cache tokens (cache reads are 97.5%). Bars show days with logs; a hatched bar is the current month.</text>
+  <text x="48" y="722" class="t" font-size="13" fill="#7c8799">Read from Claude Code and Codex logs on my main machine. ChatGPT use since 2022 was never metered, so it is not counted here.</text>
+
+</svg>

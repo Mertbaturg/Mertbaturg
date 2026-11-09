@@ -163,11 +163,6 @@ Where I started. These aren't my daily drivers anymore, but I shipped real clien
 
 Plus dozens of client builds for clinics, health, logistics, car services, legal tech and sports clubs, mostly in private repos.
 
-## 🔢 GitHub by the numbers
-
-<img src="./assets/github-stats.svg" alt="GitHub stats from the GraphQL API: contributions, commits, repositories, organizations, stars and languages" width="100%"/>
-
-
 ## 📊 GitHub activity
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution chart" width="100%"/>

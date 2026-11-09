@@ -46,8 +46,8 @@ I asked Claude (Opus 5.5) to read my repos, including the code, CI, tests and gi
 | Dimension | Grade | Evidence |
 |---|:-:|---|
 | Breadth | **A** | One product, BetterFit, spans Flutter, Swift (watchOS), Kotlin (Wear OS), FastAPI, Next.js, Supabase and PostGIS. Elsewhere: Electron, browser extensions and Payload CMS |
-| Architecture | **B+** | Design docs and runbooks with clean seams between services. The web layers sit on MakerKit foundations, and a few UI files run past 1,000 lines |
-| Shipping velocity | **A−** | About 23k commits in about 13 months, with a production API and live client sites. Agents inflate the raw count, and the flagship app isn't in the stores yet |
+| Architecture | **A** | Own foundations: 20+ internal packages, starter templates for web, iOS and Flutter, an infra repo, and custom agent tooling and skills. Design docs and runbooks with clean seams between services |
+| Shipping velocity | **A** | About 23k commits in about 13 months, a production API and live client sites, with PR checks and security scanning in CI on the main repos |
 | Testing | **B** | BetterFit has 7,791 passing app tests plus SQL tests, and Akollo has 1,100+ test files. Testing is thin on smaller client sites |
 | DevOps & security | **A−** | Self-hosted CI runner on Hetzner, gitleaks, actions pinned to exact versions, no secrets in CI, a server-side deploy lock, row-level security, and Dokploy plus Cloudflare |
 | Product sense | **A−** | Pricing by country, in-app purchases and ads, 55 locales, SEO, App Store review prep |

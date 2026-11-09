@@ -29,12 +29,12 @@
     {
       "name": "Gemini",
       "tokens": 20000000000,
-      "note": ""
+      "note": "Nano Banana · Stitch"
     },
     {
       "name": "ChatGPT",
       "tokens": 2300000000,
-      "note": "since day one"
+      "note": "from GPT-3.5, launch day"
     }
   ],
   "timeline": [
@@ -51,7 +51,7 @@
     [
       "Nov 2022",
       "WriteWise",
-      "+ ChatGPT, day one"
+      "+ ChatGPT (GPT-3.5)"
     ],
     [
       "2023",

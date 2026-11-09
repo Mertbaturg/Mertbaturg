@@ -1,4 +1,4 @@
-<a href="https://techsy.io"><img src="./assets/hero.svg" alt="Mert Batur Gürbüz — Co-Founder & CTO at Techsy.io" width="100%"/></a>
+<a href="https://techsy.io"><img src="./assets/hero.svg" alt="Mert Batur Gürbüz — Co-Founder at Techsy.io" width="100%"/></a>
 
 <p align="center">
   <a href="https://techsy.io"><img src="https://img.shields.io/badge/techsy.io-0d1117?style=for-the-badge&logo=googlechrome&logoColor=38bdf8" alt="Website"/></a>
@@ -11,7 +11,7 @@
 
 I sold my first WordPress website in 2019, at 16, started writing real code at 17, and I've built with AI since ChatGPT's first day. I'm a technical co-founder: I co-founded **[Techsy.io](https://techsy.io)**, **WriteWise** and **Rise**, and I built **BetterFit** and the rest of Techsy's product line. Before Techsy I ran an SEO and digital marketing agency, so I build software with **growth, content and distribution** in mind, not just code.
 
-- 🏢 **Co-Founder & CTO @ Techsy.io** (2023–present): I build BetterFit and the rest of Techsy's products, multi-agent systems and client platforms
+- 🏢 **Co-Founder @ Techsy.io** (2023–present): I build BetterFit and the rest of Techsy's products, multi-agent systems and client platforms
 - ✍️ **Co-Founder @ WriteWise** (Nov 2022)
 - 📈 **Co-Founder @ Rise** (SIRIUS / Rise Marketing, 2021–2023): automated SEO campaigns, web design and lead-gen funnels
 - 🎓 **MEng Software Engineering @ University of Birmingham**: distributed systems, security and reverse engineering

@@ -1,103 +1,123 @@
 {
-  "generated_at": "2026-11-09",
-  "claude": {
-    "first_logged": "2025-12-29",
-    "last_logged": "2026-11-07",
-    "claude_account_since": "2024-07-04",
-    "claude_code_since": "2025-07-09",
-    "plan": "Max",
-    "tokens": {
-      "input": 12637732,
-      "output": 747441711,
-      "cache_read": 212690249479,
-      "cache_write": 4588082744
+  "since": "Nov 2022",
+  "labs": 5,
+  "claude_models": 13,
+  "claude_monthly_avg": 207000000000,
+  "providers": [
+    {
+      "name": "Claude",
+      "tokens": 2484000000000,
+      "note": "Opus · Sonnet · Fable · Haiku",
+      "tag": "207B / month"
     },
-    "total": 218038411666,
-    "by_family": {
-      "opus": 198160838860,
-      "sonnet": 14752034731,
-      "fable": 4824719125,
-      "haiku": 300818950
+    {
+      "name": "GLM",
+      "tokens": 2400000000000,
+      "note": "GLM 5.2"
     },
-    "output_by_family": {
-      "opus": 655553502,
-      "sonnet": 67193953,
-      "fable": 21595587,
-      "haiku": 3098669
+    {
+      "name": "Codex",
+      "tokens": 1200000000000,
+      "note": "GPT-5.5 → GPT-6.1"
     },
-    "by_model": {
-      "Opus 5.5": 168923848469,
-      "Opus 4.8": 12968533723,
-      "Sonnet 5": 11993350401,
-      "Opus 5": 10944484366,
-      "Fable 5.1": 3898106262,
-      "Opus 4.5": 3696592085,
-      "Sonnet 5.5": 2206100331,
-      "Opus 4.6": 1627380217,
-      "Fable 5": 926612863,
-      "Sonnet 4.6": 427507165,
-      "Haiku 4.5": 153987644,
-      "Haiku 5.5": 146831306,
-      "Sonnet 4.5": 125076834
+    {
+      "name": "DeepSeek",
+      "tokens": 1000000000000,
+      "note": "",
+      "approx": true
     },
-    "monthly": [
-      {
-        "month": "2026-06",
-        "tokens": 716819472,
-        "days": 4
-      },
-      {
-        "month": "2026-07",
-        "tokens": 23910736984,
-        "days": 27
-      },
-      {
-        "month": "2026-08",
-        "tokens": 6933350843,
-        "days": 12
-      },
-      {
-        "month": "2026-09",
-        "tokens": 47516197605,
-        "days": 11
-      },
-      {
-        "month": "2026-10",
-        "tokens": 121045332031,
-        "days": 30
-      },
-      {
-        "month": "2026-11",
-        "tokens": 12466877703,
-        "days": 6
-      }
-    ],
-    "unsplit_before": 5449097028,
-    "peak_month": {
-      "month": "2026-10",
-      "tokens": 121045332031,
-      "days": 30
+    {
+      "name": "Gemini",
+      "tokens": 20000000000,
+      "note": ""
     },
-    "peak_day": {
-      "date": "2026-10-03",
-      "tokens": 13934417382
-    },
-    "sessions": 8268,
-    "messages": 1621768,
-    "longest_session_days": 6.4,
-    "longest_session_messages": 6064
-  },
-  "codex": {
-    "since": "2026-05-09",
-    "total": 465466779,
-    "by_model": {
-      "gpt-5.6-sol": 281754144,
-      "gpt-6-astra": 79474845,
-      "gpt-5.5": 65510348,
-      "gpt-6-luna": 14760599,
-      "gpt-6.1-sol": 12032555,
-      "gpt-5.6-luna": 8640557,
-      "gpt-5.4-mini": 3293731
+    {
+      "name": "ChatGPT",
+      "tokens": 2300000000,
+      "note": "since day one"
     }
-  }
+  ],
+  "timeline": [
+    [
+      "2019",
+      "First WordPress sale",
+      "age 16"
+    ],
+    [
+      "2021",
+      "Rise",
+      "SEO & web agency"
+    ],
+    [
+      "Nov 2022",
+      "WriteWise",
+      "+ ChatGPT, day one"
+    ],
+    [
+      "2023",
+      "Techsy.io",
+      "co-founder & CTO"
+    ],
+    [
+      "Jul 2024",
+      "Claude",
+      ""
+    ],
+    [
+      "Jul 2025",
+      "Claude Code",
+      "Max"
+    ],
+    [
+      "2026",
+      "Agent fleets",
+      "at Pruva"
+    ],
+    [
+      "Now",
+      "7.1T tokens",
+      "lifetime"
+    ]
+  ],
+  "lab": {
+    "Hardware": [
+      "RTX 4090",
+      "RTX 4060",
+      "RTX 3060",
+      "M4 Max",
+      "M5 Max",
+      "M6 Max",
+      "DGX Spark"
+    ],
+    "Serving & tuning": [
+      "vLLM",
+      "SGLang",
+      "TensorRT-LLM",
+      "llama.cpp",
+      "Ollama",
+      "LM Studio",
+      "LiteLLM",
+      "Unsloth",
+      "Axolotl"
+    ],
+    "Evals & tracing": [
+      "Confident AI",
+      "DeepEval",
+      "Langfuse",
+      "LangSmith",
+      "Ragas",
+      "Promptfoo",
+      "Braintrust",
+      "Helicone",
+      "MLflow"
+    ]
+  },
+  "lab_metrics": [
+    "tokens/s",
+    "time to first token",
+    "VRAM",
+    "cost per token",
+    "eval scores"
+  ],
+  "timeline_title": "Early, and never stopped"
 }

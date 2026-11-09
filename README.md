@@ -9,10 +9,10 @@
 
 ## 👋 About me
 
-I've been writing code since I was 17, and I've built with AI since ChatGPT's first day. I'm a technical co-founder: I co-founded **[Techsy.io](https://techsy.io)**, **WriteWise** and **Rise**, and I built **BetterFit** and the rest of Techsy's product line. Before Techsy I ran an SEO and digital marketing agency, so I build software with **growth, content and distribution** in mind, not just code.
+I sold my first WordPress website in 2019, at 16, started writing real code at 17, and I've built with AI since ChatGPT's first day. I'm a technical co-founder: I co-founded **[Techsy.io](https://techsy.io)**, **WriteWise** and **Rise**, and I built **BetterFit** and the rest of Techsy's product line. Before Techsy I ran an SEO and digital marketing agency, so I build software with **growth, content and distribution** in mind, not just code.
 
 - 🏢 **Co-Founder & CTO @ Techsy.io** (2023–present): I build BetterFit and the rest of Techsy's products, multi-agent systems and client platforms
-- ✍️ **Co-Founder @ WriteWise**
+- ✍️ **Co-Founder @ WriteWise** (Nov 2022)
 - 📈 **Co-Founder @ Rise** (SIRIUS / Rise Marketing, 2021–2023): automated SEO campaigns, web design and lead-gen funnels
 - 🎓 **MEng Software Engineering @ University of Birmingham**: distributed systems, security and reverse engineering
 - 🔬 **Final-year research, AXON-0:** a metacognitive latent-space controller for multi-agent LLMs
@@ -21,60 +21,20 @@ I've been writing code since I was 17, and I've built with AI since ChatGPT's fi
 ## 🧭 How I work
 
 - 🧠 **I manage agents like a team.** My own orchestrator, `yonet` (Turkish for *manage*), runs Claude, Codex, Grok and Oh My Pi workers in parallel. It gives each worker a task and checks the result against evidence. Then it retires that worker and briefs a fresh one. Most of my commits are co-written with AI. The craft is in the brief and the review.
-- 🔢 **Numbers over vibes.** If I can't measure it, it doesn't ship, and it doesn't go on this page.
-- 🪫 **Frugal per call, relentless in total.** Every skill and MCP server on my machine stays off until a task needs it. I still pushed 121B tokens through Claude Code in October.
+- 🪫 **Frugal per call, relentless in total.** Every skill and MCP server on my machine stays off until a task needs it. I still average 207B Claude tokens a month.
 - 🛡️ **Careful in production.** I back up the prod database before every deploy and make one commit per change. Secrets stay out of CI, and actions are pinned to exact versions.
-- 🥊 **Off-screen:** boxing, kayaking, fitness, history and too many research papers.
 
-## 🎩 Standing on the shoulders of
+## 🤖 AI
 
-<img src="./assets/mccarthy.svg" alt="Tribute to John McCarthy (1927–2011), who coined the term artificial intelligence and created Lisp. Quote: He who refuses to do arithmetic is doomed to talk nonsense." width="100%"/>
+<img src="./assets/ai-timeline.svg" alt="Timeline: 2019 first WordPress website sale at 16; 2021 Rise; Nov 2022 WriteWise and ChatGPT from day one; 2023 Techsy.io; Jul 2024 Claude; Jul 2025 Claude Code; 2026 agent fleets at Pruva; now 7.1T lifetime tokens" width="100%"/>
 
-<sub>Photo: <a href="https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg">John McCarthy, Stanford, 2006</a> by "null0", <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, via Wikimedia Commons. Cropped and converted to grayscale.</sub>
+<img src="./assets/ai-usage.svg" alt="Lifetime AI tokens: 7.1T since Nov 2022. Claude 2.48T (207B a month), GLM 5.2 2.4T, Codex 1.2T, DeepSeek about 1T, Gemini 20B, ChatGPT 2.3B" width="100%"/>
 
-## 🤖 AI, measured
-
-<img src="./assets/ai-timeline.svg" alt="AI timeline: Rise agency 2021, ChatGPT from day one in Nov 2022, Techsy.io 2023, Claude Jul 2024, Claude Code Jul 2025, agent fleets Dec 2025, Codex May 2026, 121B tokens in Oct 2026" width="100%"/>
-
-<img src="./assets/ai-usage.svg" alt="AI usage measured from local logs: 218B Claude Code tokens since Dec 2025, 121B in October 2026 alone, 747M output tokens, 8,268 agent sessions, Opus 90.9% of tokens" width="100%"/>
-
-<!-- AI-TABLE:START -->
-<details>
-<summary>Same data as a table</summary>
-
-| Month | Claude Code tokens | Days logged |
-|---|--:|--:|
-| Jun 2026 | 717M | 4 |
-| Jul 2026 | 23.9B | 27 |
-| Aug 2026 | 6.9B | 12 |
-| Sep 2026 | 47.5B | 11 |
-| Oct 2026 | 121B | 30 |
-| Nov 2026 | 12.5B | 6 |
-
-Plus 5.4B tokens from Dec 2025 until daily logs began, not split by month.
-Busiest day: 13.9B tokens on 2026-10-03.
-
-| Model family | Tokens | Share |
-|---|--:|--:|
-| Opus | 198B | 90.9% |
-| Sonnet | 14.8B | 6.8% |
-| Fable | 4.8B | 2.2% |
-| Haiku | 301M | 0.1% |
-
-| Token type | Count |
-|---|--:|
-| Cache reads | 213B |
-| Cache writes | 4.6B |
-| Output | 747M |
-| Fresh input | 12.6M |
-| Codex (GPT) total | 465M |
-
-</details>
-<!-- AI-TABLE:END -->
+<img src="./assets/ai-lab.svg" alt="AI lab: models tested on RTX 4090, 4060, 3060, Apple M4 Max, M5 Max, M6 Max and NVIDIA DGX Spark; served with vLLM, SGLang, TensorRT-LLM, llama.cpp, Ollama, LM Studio, LiteLLM; tuned with Unsloth and Axolotl; evaluated with Confident AI, DeepEval, Langfuse, LangSmith, Ragas, Promptfoo, Braintrust, Helicone and MLflow" width="100%"/>
 
 #### 🧰 AI toolbelt
 <p>
-  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=flat-square&logo=claude&logoColor=d97757" alt="Claude Code"/> <img src="https://img.shields.io/badge/Codex-0d1117?style=flat-square&logo=openai&logoColor=white" alt="Codex"/> <img src="https://img.shields.io/badge/Cursor-0d1117?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/> <img src="https://img.shields.io/badge/GitHub_Copilot-0d1117?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/> <img src="https://img.shields.io/badge/Gemini_·_Antigravity-0d1117?style=flat-square&logo=googlegemini&logoColor=8e75b2" alt="Gemini and Antigravity"/> <img src="https://img.shields.io/badge/Grok-0d1117?style=flat-square&logo=x&logoColor=white" alt="Grok"/> <img src="https://img.shields.io/badge/OpenCode-0d1117?style=flat-square&logoColor=white" alt="OpenCode"/> <img src="https://img.shields.io/badge/Oh_My_Pi-0d1117?style=flat-square&logoColor=white" alt="Oh My Pi"/> <img src="https://img.shields.io/badge/Trae-0d1117?style=flat-square&logoColor=white" alt="Trae"/> <img src="https://img.shields.io/badge/Ollama-0d1117?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/> <img src="https://img.shields.io/badge/OpenRouter-0d1117?style=flat-square&logo=openrouter&logoColor=white" alt="OpenRouter"/> <img src="https://img.shields.io/badge/MCP-0d1117?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/>
+  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=flat-square&logo=claude&logoColor=d97757" alt="Claude Code"/> <img src="https://img.shields.io/badge/Codex-0d1117?style=flat-square&logo=openai&logoColor=white" alt="Codex"/> <img src="https://img.shields.io/badge/Cursor-0d1117?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/> <img src="https://img.shields.io/badge/GitHub_Copilot-0d1117?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/> <img src="https://img.shields.io/badge/Gemini_·_Antigravity-0d1117?style=flat-square&logo=googlegemini&logoColor=8e75b2" alt="Gemini and Antigravity"/> <img src="https://img.shields.io/badge/DeepSeek-0d1117?style=flat-square&logoColor=white" alt="DeepSeek"/> <img src="https://img.shields.io/badge/GLM-0d1117?style=flat-square&logoColor=white" alt="GLM"/> <img src="https://img.shields.io/badge/Grok-0d1117?style=flat-square&logo=x&logoColor=white" alt="Grok"/> <img src="https://img.shields.io/badge/OpenCode-0d1117?style=flat-square&logoColor=white" alt="OpenCode"/> <img src="https://img.shields.io/badge/Oh_My_Pi-0d1117?style=flat-square&logoColor=white" alt="Oh My Pi"/> <img src="https://img.shields.io/badge/Trae-0d1117?style=flat-square&logoColor=white" alt="Trae"/> <img src="https://img.shields.io/badge/Ollama-0d1117?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/> <img src="https://img.shields.io/badge/OpenRouter-0d1117?style=flat-square&logo=openrouter&logoColor=white" alt="OpenRouter"/> <img src="https://img.shields.io/badge/MCP-0d1117?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/>
 </p>
 
 ## 🧪 Level of work, graded by Claude
@@ -120,7 +80,7 @@ I asked Claude (Opus 5.5) to read my repos, including the code, CI, tests and gi
   <img src="https://skillicons.dev/icons?i=nodejs,nextjs,react,vue,vite,tailwind,threejs,express,electron,vitest,jest,bun,deno,pnpm,npm,graphql,styledcomponents&perline=17" alt="Node.js, Next.js, React, Vue, Vite, Tailwind, three.js, Express, Electron, Vitest, Jest, Bun, Deno, pnpm, npm, GraphQL, styled-components"/>
 </p>
 
-This is my daily stack. It comes from the `package.json` files across my repos, not from a wishlist:
+My daily stack:
 
 | Layer | What I reach for |
 |---|---|
@@ -209,16 +169,6 @@ Plus dozens of client builds for clinics, health, logistics, car services, legal
 
 <img src="./assets/github-stats.svg" alt="GitHub stats from the GraphQL API: contributions, commits, repositories, organizations, stars and languages" width="100%"/>
 
-<!-- GITHUB-TABLE:START -->
-<details>
-<summary>Same data as text</summary>
-
-23,097 contributions (2024: 49 · 2025: 1,404 · 2026: 21,643) · 22,964 commits · 66 PRs · 34 issues ·
-103 repositories (100 private) across 6 organizations and my account · ★ 4 stars.
-Top languages by bytes: Dart 43.9% · TypeScript 32.8% · HTML 10.4% · PLpgSQL 4.4% · Python 2.4% · Swift 1.4% · JavaScript 1.2% · MDX 0.7% · Ruby 0.6% · Vue 0.5% · Roff 0.3% · CSS 0.3%.
-
-</details>
-<!-- GITHUB-TABLE:END -->
 
 ## 📊 GitHub activity
 

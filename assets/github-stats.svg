@@ -4,12 +4,11 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0d1424"/>
     </linearGradient>
-    <linearGradient id="hero" x1="0" x2="1">
-      <stop offset="0" stop-color="#f0f6fc"/><stop offset=".55" stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/>
+    <linearGradient id="hero" gradientUnits="userSpaceOnUse" x1="0" x2="600">
+      <stop offset="0" stop-color="#f0f6fc"/><stop offset=".45" stop-color="#7dd3fc"/>
+      <stop offset=".75" stop-color="#a78bfa"/><stop offset="1" stop-color="#f0f6fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-300 0; 300 0; -300 0" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
-    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <rect width="6" height="6" fill="#3987e5" opacity=".35"/><line x1="0" y1="0" x2="0" y2="6" stroke="#3987e5" stroke-width="3"/>
-    </pattern>
     <style>
       .t { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
       .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -18,33 +17,33 @@
   <rect width="1200" height="440" rx="20" fill="url(#bg)"/>
   <rect x=".5" y=".5" width="1199" height="439" rx="19.5" fill="none" stroke="#1e293b"/>
   <text x="48" y="56" class="m" font-size="15" letter-spacing="3" fill="#7dd3fc">GITHUB · LIVE FROM THE GRAPHQL API</text>
-  <text x="48" y="96" class="t" font-size="32" font-weight="700" fill="#f0f6fc">By the numbers</text>
   <text x="1152" y="56" class="m" font-size="14" fill="#7c8799" text-anchor="end">updated 2026-11-09</text>
-  <g transform="translate(48,124)">
+  <text x="48" y="96" class="t" font-size="32" font-weight="700" fill="#f0f6fc">By the numbers</text>
+  <g transform="translate(48,124)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.10s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.10s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
     <rect width="208" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
     <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">23,097</text>
     <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">contributions</text>
     <text x="20" y="94" class="m" font-size="13" fill="#7c8799">since 2024</text>
   </g>
-  <g transform="translate(272,124)">
+  <g transform="translate(272,124)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.18s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.18s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
     <rect width="208" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
     <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">22,964</text>
     <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">commits</text>
     <text x="20" y="94" class="m" font-size="13" fill="#7c8799">66 PRs · 34 issues</text>
   </g>
-  <g transform="translate(496,124)">
+  <g transform="translate(496,124)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.26s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.26s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
     <rect width="208" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
     <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">103</text>
     <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">repositories</text>
     <text x="20" y="94" class="m" font-size="13" fill="#7c8799">100 private</text>
   </g>
-  <g transform="translate(720,124)">
+  <g transform="translate(720,124)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.34s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.34s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
     <rect width="208" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
     <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">6</text>
     <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">organizations</text>
     <text x="20" y="94" class="m" font-size="13" fill="#7c8799">commits in 53 repos</text>
   </g>
-  <g transform="translate(944,124)">
+  <g transform="translate(944,124)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.42s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.42s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
     <rect width="208" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
     <text x="20" y="44" class="t" font-size="32" font-weight="700" fill="#f0f6fc">★ 4</text>
     <text x="20" y="72" class="t" font-size="16" fill="#a8b3c4">stars</text>
@@ -54,8 +53,8 @@
   <text x="158" y="282" class="m" font-size="15" fill="#a8b3c4">2024</text><text x="204" y="282" class="t" font-size="16" font-weight="700" fill="#f0f6fc">49</text>
   <text x="268" y="282" class="m" font-size="15" fill="#a8b3c4">2025</text><text x="314" y="282" class="t" font-size="16" font-weight="700" fill="#f0f6fc">1,404</text>
   <text x="414" y="282" class="m" font-size="15" fill="#a8b3c4">2026</text><text x="460" y="282" class="t" font-size="16" font-weight="700" fill="#f0f6fc">21,643</text>
-  <text x="48" y="332" class="m" font-size="14" letter-spacing="2" fill="#7c8799">LANGUAGES · 38 DETECTED · BY BYTES ACROSS ALL REPOS</text>
-  <clipPath id="lc"><rect x="48" y="348" width="1104" height="18" rx="6"/></clipPath>
+  <text x="48" y="332" class="m" font-size="14" letter-spacing="2" fill="#7c8799">LANGUAGES · 38 DETECTED</text>
+  <clipPath id="lc"><rect x="48" y="348" width="0" height="18" rx="6"><animate attributeName="width" from="0" to="1104" begin=".5s" dur="1.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/></rect></clipPath>
   <g clip-path="url(#lc)">
     <rect x="48.0" y="348" width="483.0" height="18" fill="#3987e5"/>
     <rect x="533.0" y="348" width="359.5" height="18" fill="#d95926"/>
@@ -65,12 +64,12 @@
     <rect x="1083.6" y="348" width="13.3" height="18" fill="#008300"/>
     <rect x="1098.9" y="348" width="51.1" height="18" fill="#9085e9"/>
   </g>
-  <rect x="48" y="388" width="12" height="12" rx="3" fill="#3987e5"/><text x="68" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Dart</tspan> 43.9%</text>
-  <rect x="184" y="388" width="12" height="12" rx="3" fill="#d95926"/><text x="204" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">TypeScript</tspan> 32.7%</text>
-  <rect x="371" y="388" width="12" height="12" rx="3" fill="#199e70"/><text x="391" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">HTML</tspan> 10.4%</text>
-  <rect x="507" y="388" width="12" height="12" rx="3" fill="#c98500"/><text x="527" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">PLpgSQL</tspan> 4.4%</text>
-  <rect x="660" y="388" width="12" height="12" rx="3" fill="#d55181"/><text x="680" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Python</tspan> 2.4%</text>
-  <rect x="804" y="388" width="12" height="12" rx="3" fill="#008300"/><text x="824" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Swift</tspan> 1.4%</text>
-  <rect x="940" y="388" width="12" height="12" rx="3" fill="#9085e9"/><text x="960" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Other</tspan> 4.8%</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.20s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="48" y="388" width="12" height="12" rx="3" fill="#3987e5"/><text x="68" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Dart</tspan> 43.9%</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.26s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.26s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="184" y="388" width="12" height="12" rx="3" fill="#d95926"/><text x="204" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">TypeScript</tspan> 32.7%</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.32s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.32s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="371" y="388" width="12" height="12" rx="3" fill="#199e70"/><text x="391" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">HTML</tspan> 10.4%</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.38s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.38s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="507" y="388" width="12" height="12" rx="3" fill="#c98500"/><text x="527" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">PLpgSQL</tspan> 4.4%</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.44s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.44s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="660" y="388" width="12" height="12" rx="3" fill="#d55181"/><text x="680" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Python</tspan> 2.4%</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.50s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="804" y="388" width="12" height="12" rx="3" fill="#008300"/><text x="824" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Swift</tspan> 1.4%</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.56s" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="1.56s" dur="0.6s" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><rect x="940" y="388" width="12" height="12" rx="3" fill="#9085e9"/><text x="960" y="399" class="t" font-size="16" fill="#a8b3c4"><tspan fill="#f0f6fc" font-weight="600">Other</tspan> 4.8%</text></g>
 
 </svg>

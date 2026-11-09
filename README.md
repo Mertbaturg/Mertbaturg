@@ -26,8 +26,6 @@ I sold my first WordPress website in 2019, at 16, started writing real code at 1
 
 ## 🤖 AI
 
-<img src="./assets/ai-timeline.svg" alt="Timeline: 2019 first WordPress website sale at 16; 2021 Rise; Nov 2022 WriteWise and ChatGPT from GPT-3.5; 2023 Techsy.io; Jul 2024 Claude; Jul 2025 Claude Code; 2026 agent fleets at Pruva; now 7.1T lifetime tokens" width="100%"/>
-
 <img src="./assets/ai-usage.svg" alt="Lifetime AI tokens: 7.1T since Nov 2022. Claude 2.48T (207B a month), GLM 5.2 2.4T, Codex 1.2T, DeepSeek about 1T, Gemini 20B (Nano Banana, Stitch), ChatGPT 2.3B from GPT-3.5" width="100%"/>
 
 <img src="./assets/ai-lab.svg" alt="AI lab: models tested on RTX 4090, 4060, 3060, Apple M4 Max, M5 Max, M6 Max and NVIDIA DGX Spark; served with vLLM, SGLang, TensorRT-LLM, llama.cpp, Ollama, LM Studio, LiteLLM; tuned with Unsloth and Axolotl; evaluated with Confident AI, DeepEval, Langfuse, LangSmith, Ragas, Promptfoo, Braintrust, Helicone and MLflow" width="100%"/>

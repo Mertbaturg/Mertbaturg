@@ -401,7 +401,6 @@ def main() -> None:
     if a.exists():
         ai = json.loads(a.read_text())
         (ASSETS / "ai-usage.svg").write_text(render_ai(ai))
-        (ASSETS / "ai-timeline.svg").write_text(render_timeline(ai))
         (ASSETS / "ai-lab.svg").write_text(render_lab(ai))
     print("rendered:", ", ".join(p.name for p in sorted(ASSETS.glob("*.svg"))))
 
